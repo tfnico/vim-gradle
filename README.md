@@ -11,14 +11,14 @@ This vim bundle simply recognizes .gradle files as being groovy syntax.
 
 - Make a clone of the `vim-gradle` repository:
 
-        $ mkdir -p ~/.vim/bundle
-        $ cd ~/.vim/bundle
-        $ git clone https://github.com/tfnico/vim-gradle
+        mkdir -p ~/.vim/bundle
+        cd ~/.vim/bundle
+        git clone https://github.com/tfnico/vim-gradle
 
 - OR use git submodules:
 
-        $ git submodule add https://github.com/tfnico/vim-gradle.git bundle/vim-gradle
-        $ git submodule init
+        git submodule add https://github.com/tfnico/vim-gradle.git bundle/vim-gradle
+        git submodule init
 
 Of course, if you use [Janus](https://github.com/carlhuda/janus/), you should put the clone in ~/.janus/
 instead.
