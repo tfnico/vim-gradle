@@ -1,8 +1,9 @@
 # VIM-GRADLE #
 
-This vim bundle simply recognizes .gradle files as being groovy syntax.
+This vim bundle simply recognizes .gradle files as being groovy syntax.  It also adds a vim compiler
+plugin for gradle.
 
-## Installing and Using ##
+## Installation ##
 
 - Install [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) into `~/.vim/autoload/` and add the
    following line to your `~/.vimrc`:
@@ -23,8 +24,18 @@ This vim bundle simply recognizes .gradle files as being groovy syntax.
 Of course, if you use [Janus](https://github.com/carlhuda/janus/), you should put the clone in ~/.janus/
 instead.
 
-That's it. Pathogen should handle the rest, and use groovy syntax
-highlighting when opening .gradle files.
+That's it. Pathogen should handle the rest.
+
+## Usage ##
+
+### Syntax Highlighting ###
+
+.gradle files will now have groovy syntax highlighting.
+
+### Compiler Plugin ###
+
+You can now use `:compiler gradle` to set gradle as the compiler. `:make build` will then run
+`gradle build` (for example) and the quickfix window will be loaded with parsed error results.
 
 ## Credits ##
 
