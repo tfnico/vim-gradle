@@ -25,3 +25,4 @@ CompilerSet errorformat=
     \%-GTotal\ \time:\ %.%#,
     \%E%f:%l:\ %m,
     \%-G%.%#
+
